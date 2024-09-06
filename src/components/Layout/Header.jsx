@@ -5,6 +5,8 @@ const HeaderWrapper = styled.header`
   background-color: #6c63ff;
   padding: 20px;
   color: #ffffff;
+  display : flex;
+  justify-content: center;
 `;
 
 const HeaderContent = styled.div`

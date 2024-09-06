@@ -17,26 +17,53 @@ const Content = styled.section`
 
 const RegisterTalentButton = styled.button`
   padding: 15px;
-  background-color: #007bff;
+  background-color: #6C63FF;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   margin-top: 20px;
   display: block;
   width: 100%;
+  color: #FFFFFF;
+  max-with : 800px
+  width: 100%;
+
+
+//   /* 하단 재능등록 버튼 */
+
+// height: 50px;
+// left: calc(50% - 594px/2);
+// top: 986px;
+
+
+// /* 나의 재능 등록 하기 */
+
+
+
+// font-family: 'Noto Sans KR';
+// font-style: normal;
+// font-weight: 700;
+// font-size: 20px;
+// line-height: 29px;
+// /* identical to box height */
+// display: flex;
+// align-items: center;
+
+// color: #FFFFFF;
+
+
 `;
 
 function MainContent() {
     return (
         <MainContentWrapper>
-            <Sidebar />
             <Content>
                 <LatestTalents />
                 <CommunityBoard />
                 <RegisterTalentButton>나의 재능 등록 하기</RegisterTalentButton>
             </Content>
-            <RightSidebar />
+            
         </MainContentWrapper>
     );
 }
