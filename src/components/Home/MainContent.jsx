@@ -12,7 +12,6 @@ const MainContentWrapper = styled.main`
 
 const Content = styled.section`
   flex: 1;
-  padding: 20px;
 `;
 
 const RegisterTalentButton = styled.button`
